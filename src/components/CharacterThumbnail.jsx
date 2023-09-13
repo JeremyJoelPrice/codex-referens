@@ -1,14 +1,12 @@
 import styled from "styled-components";
-import { images } from "../datasource/index.js";
-const { frame } = images;
+import CharacterPortrait from "../components/CharacterPortrait";
 
 const CharacterThumbnail = ({ name, portrait }) => {
 	return (
 		<ThumbnailWrapper>
-			<StyledCharacterThumbnail>
-				<Frame src={frame} />
-				<Image src={portrait} />
-			</StyledCharacterThumbnail>
+			<CharacterPortrait
+				portrait={portrait}
+				portraitSize={"250px"}></CharacterPortrait>
 			<StyledNameTag>{name}</StyledNameTag>
 		</ThumbnailWrapper>
 	);
@@ -16,40 +14,13 @@ const CharacterThumbnail = ({ name, portrait }) => {
 
 export default CharacterThumbnail;
 
-const imageSize = "250px";
-
-const StyledCharacterThumbnail = styled.div`
-	position: relative;
-	min-width: ${imageSize};
-	max-width: ${imageSize};
-	min-height: ${imageSize};
-	overflow: hidden;
-`;
-
-const Frame = styled.img`
-	position: absolute;
-	z-index: 1;
-	width: 100%;
-	height: 100%;
-`;
-
-const Image = styled.img`
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	height: 100%;
-	width: 100%;
-	object-fit: cover;
-`;
-
-const StyledNameTag = styled.p`
+const StyledNameTag = styled.div`
 	font-family: Georgia, "Times New Roman", Times, serif;
-	justify-content: center;
 	align-self: center;
 	line-height: 1em;
 	font-size: 25pt;
 	color: rgb(213, 194, 103);
+	text-shadow: 0px 0px 4px rgba(0, 0, 0, 1);
 `;
 
 const ThumbnailWrapper = styled.div`
