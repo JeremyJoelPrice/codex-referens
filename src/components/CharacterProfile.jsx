@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import CharacterPortrait from "./CharacterPortrait";
-import { BodyText, Header, Subheader } from "./StyledArticleComponents";
+import { BodyText, Subheader } from "./StyledArticleComponents";
 import { images } from "../datasource";
 const { cancel } = images.misc;
 
