@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import LoreWiki from "./pages/LoreWiki";
 import Home from "./article-components/Home";
 import Echomora from "./article-components/Echomora";
+import Gods from "./article-components/Gods";
 
 const App = () => {
 	return (
@@ -20,6 +21,10 @@ const App = () => {
 					<Route
 						path="/lore/echomora"
 						element={<LoreWiki article={Echomora} />}
+					/>
+					<Route
+						path="/lore/gods"
+						element={<LoreWiki article={Gods} />}
 					/>
 				</Routes>
 			</div>

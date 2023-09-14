@@ -9,8 +9,8 @@ import { useNavigate } from "react-router-dom";
 const Home = () => {
 	const navigate = useNavigate();
 
-	const handleClick = () => {
-		navigate("/lore/echomora");
+	const handleClick = (route) => {
+		navigate(route);
 	};
 
 	return (
@@ -28,6 +28,9 @@ const Home = () => {
 				<ul>
 					<Link onClick={() => handleClick("/lore/echomora")}>
 						The World of Echomora
+					</Link>
+					<Link onClick={() => handleClick("/lore/gods")}>
+						The Gods
 					</Link>
 				</ul>
 			</BodyText>
