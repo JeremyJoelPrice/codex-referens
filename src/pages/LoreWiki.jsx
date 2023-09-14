@@ -1,15 +1,14 @@
 import styled from "styled-components";
 import Wallpaper from "../components/Wallpaper";
-import TestArticle from "../article-components/TestArticle";
 import { images } from "../datasource/index.js";
 const { wallpaper } = images;
 
-const LoreWiki = () => {
+const LoreWiki = ({ article: Article }) => {
 	return (
 		<Wallpaper src={wallpaper}>
 			<StyledLoreWiki>
 				<ContentColumn>
-					<TestArticle />
+					<Article />
 				</ContentColumn>
 			</StyledLoreWiki>
 		</Wallpaper>
