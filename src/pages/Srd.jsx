@@ -58,4 +58,7 @@ const StyledSrd = styled.div`
 
 const ContentColumn = styled.div`
 	padding: 0 100px;
+	@media (max-width: 750px) {
+		padding: 0;
+	}
 `;
