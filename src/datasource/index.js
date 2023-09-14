@@ -15,6 +15,7 @@ import wallpaper from "../datasource/img/wallpaper.png";
 import frame from "../datasource/img/portrait-frame.png";
 import niamhAlt from "../datasource/img/lili-portrait-2.jpg";
 import cancel from "../datasource/img/cancel_error_coin_cross_delete_icon_210983.png";
+import astrion from "../datasource/img/Astrion.png";
 
 // PC Profiles
 
@@ -132,5 +133,5 @@ The gnomes and dwarves that were trained tried to fight, whilst the others (mine
 export const images = {
 	frame,
 	wallpaper,
-	misc: { cancel, niamhAlt }
+	misc: { astrion, cancel, niamhAlt }
 };

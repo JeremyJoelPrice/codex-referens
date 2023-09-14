@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import CharacterPortrait from "./CharacterPortrait";
+import { BodyText, Header, Subheader } from "./StyledArticleComponents";
 import { images } from "../datasource";
 const { cancel } = images.misc;
 
@@ -51,23 +52,6 @@ const CancelButton = styled.img`
 	}
 `;
 
-const BodyText = styled.div`
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 16pt;
-	color: rgb(239, 233, 203);
-	line-height: 1.5em;
-	white-space: pre-line;
-`;
-
 const FloatClear = styled.div`
 	clear: both;
-`;
-
-const Subheader = styled.div`
-	font-family: Georgia, "Times New Roman", Times, serif;
-	margin-top: 20px;
-	margin-bottom: 10px;
-	line-height: 1em;
-	font-size: 22pt;
-	color: rgb(213, 194, 103);
 `;
