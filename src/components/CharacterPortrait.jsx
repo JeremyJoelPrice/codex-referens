@@ -16,9 +16,10 @@ export default CharacterPortrait;
 const StyledCharacterPortrait = styled.div`
 	float: left;
 	position: relative;
-	min-width: ${(props) => props.size};
-	max-width: ${(props) => props.size};
-	min-height: ${(props) => props.size};
+	max-width: 80%;
+	max-height: 80%;
+	width: ${(props) => props.size};
+	height: ${(props) => props.size};
 	overflow: hidden;
 	margin: 0 10px;
 `;
