@@ -11,7 +11,9 @@ const Navbar = () => {
 				<StyledLink to="/character-gallery">
 					<NavLink>Character Gallery</NavLink>
 				</StyledLink>
-				<NavLink>SRD</NavLink>
+				<StyledLink to="/srd">
+					<NavLink>SRD</NavLink>
+				</StyledLink>
 			</NavLinkContainer>
 		</StyledNavbar>
 	);

@@ -6,6 +6,7 @@ import Home from "./article-components/Home";
 import Echomora from "./article-components/Echomora";
 import Gods from "./article-components/Gods";
 import Archaedra from "./article-components/Archaedra";
+import Srd from "./pages/Srd";
 
 const App = () => {
 	return (
@@ -31,6 +32,7 @@ const App = () => {
 						path="/lore/archaedra"
 						element={<LoreWiki article={Archaedra} />}
 					/>
+					<Route path="/srd" element={<Srd />} />
 				</Routes>
 			</div>
 		</BrowserRouter>
