@@ -35,6 +35,9 @@ const Home = () => {
 					<Link onClick={() => handleClick("/lore/archaedra")}>
 						Archaedra, Former Home of Dwarves & Gnomes
 					</Link>
+					<Link onClick={() => handleClick("/lore/paxsinistra")}>
+						Paxsinistra, the City-State
+					</Link>
 				</ul>
 			</BodyText>
 		</>
