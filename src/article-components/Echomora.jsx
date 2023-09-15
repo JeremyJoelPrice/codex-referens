@@ -8,9 +8,9 @@ const Home = () => {
 		<>
 			<Header>Echmora</Header>
 			<BodyText>
-				Echomoroa, a once-stable realm, was irrevocably altered by the
+				Echomora, a once-stable realm, was irrevocably altered by the
 				cataclysmic eruption of the dormant magic volcano, Archaedra.
-				This event shattered the barriers separating Echomoroa from the
+				This event shattered the barriers separating Echomora from the
 				treacherous Ashlands, ushering in a tide of enigmatic beings and
 				races that now challenge its denizens. As the Ashlands encroach,
 				they bring with them unforeseen dangers, mysteries, and
@@ -20,10 +20,10 @@ const Home = () => {
 			<BodyText>
 				Moreover, the eruption unlocked the gates to magic, transforming
 				it from an elusive pursuit into a newfound and accessible power
-				within Echomoroa. This surge in magical potential has both
+				within Echomora. This surge in magical potential has both
 				intrigued and unnerved its inhabitants, leading to a landscape
 				where hidden factions wage secret wars beneath the veneer of
-				apparent unity. Echomoroa, at the intersection of magic's
+				apparent unity. Echomora, at the intersection of magic's
 				resurgence and covert conflicts, stands poised for a
 				transformative journey, where its destiny teeters on the
 				precipice of the unknown.

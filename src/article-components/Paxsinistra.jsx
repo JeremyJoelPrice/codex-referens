@@ -13,7 +13,7 @@ const Paxsinistra = () => {
 				The Sanctum of Shadows and Faith
 			</CenterestSubheader>
 			<BodyText>
-				Dominating the grand tapestry of Echomoroa's political and
+				Dominating the grand tapestry of Echomora's political and
 				spiritual landscape is the enigmatic city-state of Paxsinistra.
 				Officially proclaimed as the holy seat of both divine and
 				political authority, Paxsinistra stands as a beacon of religious
