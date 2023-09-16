@@ -37,6 +37,25 @@ const Srd = () => {
 						players come to an agreement about what happens next. If
 						you can't agree, then nothing happens.
 					</BodyText>
+					<Subheader>4. Misc Rules Changes</Subheader>
+					<BodyText>
+						<ul>
+							<li>
+								Base XP earned by attending a session, assuming
+								something dramatic and dangerous happens. Bonus
+								XP is earned by discovering hidden areas, and
+								discovering NPC aspects (their flaws, bonds,
+								etc.)
+							</li>
+							<li>XP is NOT earned by killing monsters</li>
+							<li>Gritty long/short rest variant</li>
+							<li>
+								Inspiration for representing your personality
+								traits, flaws etc in a way which is detrimental
+								and dramatic
+							</li>
+						</ul>
+					</BodyText>
 				</ContentColumn>
 			</StyledSrd>
 		</Wallpaper>
