@@ -2,8 +2,7 @@ import Wallpaper from "../components/Wallpaper.jsx";
 import { uid } from "../utils/utils.js";
 import CharacterThumbnail from "../components/CharacterThumbnail.jsx";
 import CharacterProfile from "../components/CharacterProfile.jsx";
-import { pcProfiles } from "../datasource/index.js";
-import { images } from "../datasource/index.js";
+import { images, pcDetails } from "../datasource/index.js";
 import styled from "styled-components";
 import { useState } from "react";
 const { wallpaper } = images;
@@ -13,7 +12,7 @@ const { wallpaper } = images;
 const CharacterGallery = () => {
 	const [displayCharacter, setDisplayCharacter] = useState("");
 
-	const profile = Object.values(pcProfiles).find(
+	const profile = Object.values(pcDetails).find(
 		({ name }) => name === displayCharacter
 	);
 	const name = profile?.name ?? undefined;
@@ -34,7 +33,7 @@ const CharacterGallery = () => {
 	) : (
 		<Wallpaper src={wallpaper}>
 			<PortraitContainer>
-				{Object.values(pcProfiles).map(({ name, img }) => {
+				{Object.values(pcDetails).map(({ name, img }) => {
 					return (
 						<ClickableContainer
 							key={uid()}

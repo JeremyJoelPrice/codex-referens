@@ -4,7 +4,7 @@ import { BodyText, Subheader } from "./StyledArticleComponents";
 import { images } from "../datasource";
 const { cancel } = images.misc;
 
-const CharacterThumbnail = ({
+const CharacterProfile = ({
 	name,
 	portrait,
 	description,
@@ -24,7 +24,7 @@ const CharacterThumbnail = ({
 	);
 };
 
-export default CharacterThumbnail;
+export default CharacterProfile;
 
 const StyledCharacterProfile = styled.div`
 	border: 1pt solid rgb(73, 70, 50);
