@@ -16,12 +16,15 @@ export default CharacterPortrait;
 const StyledCharacterPortrait = styled.div`
 	float: left;
 	position: relative;
-	max-width: 80%;
-	max-height: 80%;
 	width: ${(props) => props.size};
 	height: ${(props) => props.size};
 	overflow: hidden;
 	margin: 0 10px;
+
+	@media (max-width: 750px) {
+		max-width: 100%;
+		max-height: 100%;
+	}
 `;
 
 const Frame = styled.img`

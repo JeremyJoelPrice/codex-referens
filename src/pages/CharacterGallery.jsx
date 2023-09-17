@@ -32,7 +32,7 @@ const CharacterGallery = () => {
 		</Wallpaper>
 	) : (
 		<Wallpaper src={wallpaper}>
-			<PortraitContainer>
+			<ThumbnailsContainer>
 				{Object.values(pcDetails).map(({ name, img }) => {
 					return (
 						<ClickableContainer
@@ -42,19 +42,20 @@ const CharacterGallery = () => {
 						</ClickableContainer>
 					);
 				})}
-			</PortraitContainer>
+			</ThumbnailsContainer>
 		</Wallpaper>
 	);
 };
 
 export default CharacterGallery;
 
-const PortraitContainer = styled.div`
+const ThumbnailsContainer = styled.div`
 	display: flex;
 	flex-wrap: wrap;
 
 	width: 80%;
 	margin: 50px auto;
+	padding-bottom: 50px;
 	justify-content: space-between;
 
 	row-gap: 50px;
