@@ -38,6 +38,10 @@ const Home = () => {
 					<Link onClick={() => handleClick("/lore/paxsinistra")}>
 						Paxsinistra, the City-State
 					</Link>
+					<Link
+						onClick={() => handleClick("/lore/luminaris-custodes")}>
+						Luminaris Custodes - The Inquisition
+					</Link>
 				</ul>
 			</BodyText>
 		</>

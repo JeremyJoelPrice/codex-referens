@@ -8,6 +8,7 @@ import Gods from "./article-components/Gods";
 import Archaedra from "./article-components/Archaedra";
 import Srd from "./pages/Srd";
 import Paxsinistra from "./article-components/Paxsinistra";
+import LuminarisCustodes from "./article-components/Luminaris Custodes";
 
 const App = () => {
 	return (
@@ -36,6 +37,10 @@ const App = () => {
 					<Route
 						path="/lore/paxsinistra"
 						element={<LoreWiki article={Paxsinistra} />}
+					/>
+					<Route
+						path="/lore/luminaris-custodes"
+						element={<LoreWiki article={LuminarisCustodes} />}
 					/>
 					<Route path="/srd" element={<Srd />} />
 				</Routes>

@@ -3,7 +3,7 @@ import { BodyText, Header } from "../components/StyledArticleComponents";
 import { images } from "../datasource";
 const { eruption } = images.misc;
 
-const Home = () => {
+const Echomora = () => {
 	return (
 		<>
 			<Header>Echmora</Header>
@@ -41,7 +41,7 @@ const Home = () => {
 	);
 };
 
-export default Home;
+export default Echomora;
 
 const BlockLevelImage = styled.img`
 	display: block;
