@@ -8,13 +8,22 @@ const Home = () => {
 		<>
 			<Header>Echmora</Header>
 			<BodyText>
-				Echomora, a once-stable realm, was irrevocably altered by the
-				cataclysmic eruption of the dormant magic volcano, Archaedra.
-				This event shattered the barriers separating Echomora from the
-				treacherous Ashlands, ushering in a tide of enigmatic beings and
-				races that now challenge its denizens. As the Ashlands encroach,
-				they bring with them unforeseen dangers, mysteries, and
-				unbridled magic, reshaping the land's very essence.
+				Echomora is a realm where civilisation is a bastion against the
+				chaos of the wilderness. The civilised races live in tentative
+				harmony, though numerous factions engage in hostile interplay
+				against rivals both foreign and domestic. Races more barbaric,
+				though no less intelligent, are more openly hostile, acting as
+				predators by raiding opportunistically, and attacking anyone who
+				strays too far into the wild.
+				<br />
+				<br />
+				The realm was irrevocably altered by the cataclysmic eruption of
+				the dormant magic volcano, Archaedra. This event shattered the
+				barriers separating Echomora from the treacherous Ashlands,
+				ushering in a tide of enigmatic beings and races that now
+				challenge its denizens. As the Ashlands encroach, they bring
+				with them unforeseen dangers, mysteries, and unbridled magic,
+				reshaping the land's very essence.
 			</BodyText>
 			<BlockLevelImage src={eruption} />
 			<BodyText>
