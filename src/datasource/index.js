@@ -4,7 +4,7 @@
 import mayPortrait from "../datasource/img/may-portrait.jpeg";
 import liliPortrait from "../datasource/img/lili-portrait.jpg";
 import amaraPortrait from "../datasource/img/amara-portrait.png";
-import volrinPortrait from "../datasource/img/null-portrait.png";
+import volrinPortrait from "../datasource/img/volrin.jpg";
 import novaPortrait from "../datasource/img/nova-portrait.jpeg";
 import premPortrait from "../datasource/img/prem-seal.jpeg";
 
