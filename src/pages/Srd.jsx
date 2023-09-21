@@ -56,6 +56,38 @@ const Srd = () => {
 							</li>
 						</ul>
 					</BodyText>
+					<Subheader>5. Playstyle & Lethality</Subheader>
+					<BodyText>
+						<ul>
+							<li>
+								Your character sheet doesn't contain the
+								solution to every problem. Sometimes you have to
+								use creativity to find a way to change the
+								situation into one you can more effectively deal
+								with.
+							</li>
+							<li>
+								You are not the main characters, or at least the
+								NPCs and monsters don't think you are. They are
+								trying to win, and they are under no obligation
+								to fight fair.
+							</li>
+							<li>
+								Encounters are not fair or balanced. If it
+								doesn't seem like you can win, it's often better
+								to retreat or reframe the encounter on your own
+								terms.
+							</li>
+							<li>
+								Everyone can be killed, including PCs. If you're
+								not in combat, a huge amount of hit points won't
+								save you from things which would logically kill
+								you, like a knife in the neck or a fall from a
+								lethal height. Of course, this goes for NPCs
+								also...
+							</li>
+						</ul>
+					</BodyText>
 				</ContentColumn>
 			</StyledSrd>
 		</Wallpaper>
