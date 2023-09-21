@@ -6,7 +6,7 @@ import liliPortrait from "../datasource/img/lili-portrait.jpg";
 import amaraPortrait from "../datasource/img/amara-portrait.png";
 import volrinPortrait from "../datasource/img/volrin.jpg";
 import novaPortrait from "../datasource/img/nova-portrait.jpeg";
-import premPortrait from "../datasource/img/prem-seal.jpeg";
+import parasPortrait from "../datasource/img/paras-portrait.png";
 
 // Character Profiles
 
@@ -28,7 +28,7 @@ import lili from "./pc-details/lili";
 import amara from "./pc-details/amara";
 import nova from "./pc-details/nova";
 import volrin from "./pc-details/volrin";
-import prem from "./pc-details/prem";
+import paras from "./pc-details/paras";
 
 /* Exports */
 
@@ -41,7 +41,7 @@ export const images = {
 		amaraPortrait,
 		volrinPortrait,
 		novaPortrait,
-		premPortrait
+		parasPortrait
 	},
 	misc: { astrion, cancel, eruption, mystrelle, tymora, niamhAlt }
 };
@@ -51,5 +51,5 @@ export const pcDetails = {
 	nova,
 	may,
 	volrin,
-	prem
+	paras
 };
