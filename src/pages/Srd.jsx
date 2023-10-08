@@ -13,7 +13,7 @@ const Srd = () => {
 		<Wallpaper src={wallpaper}>
 			<StyledSrd>
 				<ContentColumn>
-					<Header>House Rules</Header>
+					<Header>House Rules & Etiquette</Header>
 					<Subheader>0. Be lush unto one another</Subheader>
 					<BodyText>So continue as you are</BodyText>
 					<Subheader>1. DM Rulings Are Final</Subheader>
@@ -37,54 +37,67 @@ const Srd = () => {
 						players come to an agreement about what happens next. If
 						you can't agree, then nothing happens.
 					</BodyText>
-					<Subheader>4. Misc Rules Changes</Subheader>
+					<Header>Playstyle & Tone As Per Session 0</Header>
+					<BodyText>
+						We have settled on a game world that is open, where
+						there is more adventure and opportunity to be found than
+						you will ever be able to complete, and players are
+						expected to be self-motivated, and push forward in
+						pursuit of their own goals. This world is also filled
+						with many factions, who are looking for
+						mercenaries/adventurers to hire. The world is also
+						gritty, and dangerous. Encounters are not designed to be
+						fair, only to be plausible within the game world.
+						Characters who rush into combat without preparing or
+						researching their opponents will likely get into fights
+						they can't win.
+					</BodyText>
+					<br />
+					<BodyText>
+						Secondary to the above, this is a game featuring some
+						intrigue, an overarching plot that can't be ignored
+						indefinitely, and plenty of breathing room for
+						slice-of-life moments between the action and drama.
+					</BodyText>
+					<br />
+					<BodyText>
+						Remember:
+						<ul>
+							<li>
+								your character sheet doesn't contain the
+								solution to every problem
+							</li>
+							<li>
+								your enemies think they're the main characters
+							</li>
+							<li>
+								no amount of hit points can save you from a
+								logical death (like a knife in the neck, or a
+								fall from a great height).
+							</li>
+						</ul>
+					</BodyText>
+					<Header>Variant Game Rules</Header>
 					<BodyText>
 						<ul>
 							<li>
 								Base XP earned by attending a session, assuming
-								something dramatic and dangerous happens. Bonus
-								XP is earned by discovering hidden areas, and
-								discovering NPC aspects (their flaws, bonds,
+								something dramatic and dangerous happens.
+							</li>
+							<li>
+								Bonus XP is earned by discovering hidden areas,
+								and discovering NPC aspects (their flaws, bonds,
 								etc.)
 							</li>
-							<li>XP is NOT earned by killing monsters</li>
-							<li>Gritty long/short rest variant</li>
 							<li>
-								Inspiration for representing your personality
-								traits, flaws etc in a way which is detrimental
-								and dramatic
-							</li>
-						</ul>
-					</BodyText>
-					<Subheader>5. Playstyle & Lethality</Subheader>
-					<BodyText>
-						<ul>
-							<li>
-								Your character sheet doesn't contain the
-								solution to every problem. Sometimes you have to
-								use creativity to find a way to change the
-								situation into one you can more effectively deal
-								with.
+								Gritty long/short rest variant However, spell
+								casters can prepare their spells after a short
+								rest instead of requiring a long rest.
 							</li>
 							<li>
-								You are not the main characters, or at least the
-								NPCs and monsters don't think you are. They are
-								trying to win, and they are under no obligation
-								to fight fair.
-							</li>
-							<li>
-								Encounters are not fair or balanced. If it
-								doesn't seem like you can win, it's often better
-								to retreat or reframe the encounter on your own
-								terms.
-							</li>
-							<li>
-								Everyone can be killed, including PCs. If you're
-								not in combat, a huge amount of hit points won't
-								save you from things which would logically kill
-								you, like a knife in the neck or a fall from a
-								lethal height. Of course, this goes for NPCs
-								also...
+								Inspiration is awarded for representing your
+								personality traits, flaws etc in a way which is
+								detrimental and dramatic
 							</li>
 						</ul>
 					</BodyText>
