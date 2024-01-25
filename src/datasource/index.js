@@ -21,6 +21,7 @@ import astrion from "../datasource/img/Astrion.png";
 import tymora from "../datasource/img/tyche.jpg";
 import mystrelle from "../datasource/img/Mystrelle.png";
 import eruption from "../datasource/img/eruption.jpeg";
+import limenora from "../datasource/img/limenora.png";
 
 /* PC Details */
 import may from "./pc-details/may";
@@ -43,7 +44,7 @@ export const images = {
 		novaPortrait,
 		parasPortrait
 	},
-	misc: { astrion, cancel, eruption, mystrelle, tymora, niamhAlt }
+	misc: { astrion, cancel, eruption, mystrelle, tymora, niamhAlt, limenora }
 };
 export const pcDetails = {
 	lili,
