@@ -1,7 +1,7 @@
 /* Images */
 
 // Character Portraits
-import mayPortrait from "../datasource/img/may-portrait.jpeg";
+import eurekaPortrait from "../datasource/img/eureka and yarkarth.jpg";
 import liliPortrait from "../datasource/img/lili-portrait.jpg";
 import amaraPortrait from "../datasource/img/amara-portrait.png";
 import volrinPortrait from "../datasource/img/volrin.jpg";
@@ -24,7 +24,7 @@ import eruption from "../datasource/img/eruption.jpeg";
 import limenora from "../datasource/img/limenora.png";
 
 /* PC Details */
-import may from "./pc-details/may";
+import eureka from "./pc-details/eureka";
 import lili from "./pc-details/lili";
 import amara from "./pc-details/amara";
 import nova from "./pc-details/nova";
@@ -37,7 +37,7 @@ export const images = {
 	frame,
 	wallpaper,
 	pcPortraits: {
-		mayPortrait,
+		eurekaPortrait,
 		liliPortrait,
 		amaraPortrait,
 		volrinPortrait,
@@ -50,7 +50,7 @@ export const pcDetails = {
 	lili,
 	amara,
 	nova,
-	may,
+	eureka,
 	volrin,
 	paras
 };
