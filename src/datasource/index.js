@@ -24,12 +24,12 @@ import eruption from "../datasource/img/eruption.jpeg";
 import limenora from "../datasource/img/limenora.png";
 
 /* PC Details */
-import eureka from "./pc-details/eureka";
-import lili from "./pc-details/lili";
-import amara from "./pc-details/amara";
-import nova from "./pc-details/nova";
-import volrin from "./pc-details/volrin";
-import paras from "./pc-details/paras";
+// import eureka from "./pc-details/eureka";
+// import lili from "./pc-details/lili";
+// import amara from "./pc-details/amara";
+// import nova from "./pc-details/nova";
+// import volrin from "./pc-details/volrin";
+// import paras from "./pc-details/paras";
 
 /* Exports */
 
@@ -47,10 +47,10 @@ export const images = {
 	misc: { astrion, cancel, eruption, mystrelle, tymora, niamhAlt, limenora }
 };
 export const pcDetails = {
-	lili,
-	amara,
-	nova,
-	eureka,
-	volrin,
-	paras
+	// lili,
+	// amara,
+	// nova,
+	// eureka,
+	// volrin,
+	// paras
 };

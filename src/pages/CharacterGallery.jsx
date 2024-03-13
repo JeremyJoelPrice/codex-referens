@@ -2,9 +2,10 @@ import Wallpaper from "../components/Wallpaper.jsx";
 import { uid } from "../utils/utils.js";
 import CharacterThumbnail from "../components/CharacterThumbnail.jsx";
 import CharacterProfile from "../components/CharacterProfile.jsx";
-import { images, pcDetails } from "../datasource/index.js";
+import { images } from "../datasource/index.js";
 import styled from "styled-components";
 import { useState } from "react";
+import config from "../config/config.js";
 const { wallpaper } = images;
 
 // display a row of PC thumbnails with names
@@ -12,7 +13,7 @@ const { wallpaper } = images;
 const CharacterGallery = () => {
 	const [displayCharacter, setDisplayCharacter] = useState("");
 
-	const profile = Object.values(pcDetails).find(
+	const profile = config["player characters"].find(
 		({ name }) => name === displayCharacter
 	);
 	const name = profile?.name ?? undefined;
@@ -33,7 +34,7 @@ const CharacterGallery = () => {
 	) : (
 		<Wallpaper src={wallpaper}>
 			<ThumbnailsContainer>
-				{Object.values(pcDetails).map(({ name, img }) => {
+				{config["player characters"].map(({ name, img }) => {
 					return (
 						<ClickableContainer
 							key={uid()}
