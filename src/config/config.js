@@ -1,72 +1,47 @@
-import Astrion from "../datasource/img/Astrion.png";
-import liliPortrait from "../datasource/img/lili-portrait.jpg";
-import eurekaPortrait from "../datasource/img/eureka and yarkarth.jpg";
-import novaPortrait from "../datasource/img/nova-portrait.jpeg";
+import nullPortrait from "../datasource/img/null-portrait.png";
+import naz from "../datasource/img/naz.jpg";
+import xanthe from "../datasource/img/xanthe.jpg";
+import ghost from "../datasource/img/ghost.jpg";
+import finnian from "../datasource/img/finnian.jpg";
 
 const config = {
 	"player characters": [
 		{
-			name: "sample name",
-			img: Astrion,
-			description: "sample description",
-			backstory: "sample backstory"
+			name: "Finnian Reid",
+			img: finnian,
+			backstory: `As a child Finnian met the legendary Dr Joseph Bell, a famous investigator, renowned for his ability to solve mystery. Quickly enamoured, Finnian dedicated his life to following Dr Bells footsteps, dedicated to becoming fabled. As his lust for money and fame took over, Finnian found himself struggling to balance between the fine line of greed and morale, often taking jobs with the promise of fame and coin regardless of the impact it could cause. He practised inventing new weapons and armour in his quest for notoriety, often selling pieces to fund his projects and extravagant life style. One ominous night he received a mysterious letter from a Lord Beaumont, summoning him to his Manor for quest destined pave his future.`
 		},
 		{
-			name: "Lili Nimblefoot",
-			img: liliPortrait,
-			description: `Red hair, golden eyes with amber flecks, tanned skin.
-		Giggly, bold and outgoing. Lili collects and spreads gossip, insults others, and is sensitive.
-		However, she always wants to be the best, and tends to brag.
-		She believes in making people smile and creating great stories and music, and plans to return to her village as a hero and the best performer - better than Miriam!`,
-			backstory: `I grew up in the spotlight. Siren, they called me (which led to
-		my nickname, Lili - being my first word).
-		I lived in a small hut with my brothers and sisters:
-		
-		• David & Goliath (twin boy)
-		• Summer & Winter (twin girls)
-		• Sugar & Spice (twin girl and boy)
-		• me & Jack (my full name is secret)
-		• Leesa & Richard (nickname Dick)
-		
-		My life was filled with song and dance until Miriam came along.
-		
-		Her dancing entranced the whole village and before I knew it
-		everyone had stopped asking for my songs.
-		Even papa (Lee) and mama (Bea) didn't ask me to perform at their
-		100th anniversary.
-		I ran away.
-		I told them the next time they see me I'll be not only the best
-		artist in the world, but a hero as well.
-		I can't wait to return and show Miriam who I really am! To
-		remind me of my quest, I have a love letter from Merri, my ex
-		girlfriend. She was with me when I discovered the magic of my
-		music, and she too was swept away in Miriam's dancing.
-		
-		I'm not sure if I want her back or to ruin her life.`
+			name: "Naz",
+			img: naz,
+			backstory: `Naz grew up in the slums of Blackchapel. She didn’t know her parents and begged for money. When she got older she had a scrap with some kids who tried to steal her pet rat, Fernando. She was spotted by another half-orc who ran a fighting ring in the sewers. He trained her as a fighter and she fought for him in his illegal fighting ring in the sewers where people come and go and make bets. She wins most of her money this way as she is very small for a half-orc so people tend to bet against her, but she rarely loses. Her mentor was a bit like a father but was distant and only saw her as a prized fighter. Although she hasn’t experience love she hopes one day she will. She works in kitchens for a stable salary since her race prevented her from education or any better job. She is wary of the other races. She dreams of escaping the slums and often looks up at the stars wishing for freedom and safety. She was working her day job back of house in the kitchen when she received a mysterious letter…`
 		},
 		{
-			name: "Willow",
-			img: eurekaPortrait,
-			description: `No description`,
-			backstory: `No backstory`
+			name: "Melody Grieves",
+			img: nullPortrait,
+			backstory: `Melody Grieves (GRIEVES). Physical Description - Grieves is a 25 year old woman. She is 5’10 with an hourglass figure, but typically wears layered full-length robes and cheap jewels. She has the words ‘hello’ and ‘goodbye’ branded into each of her forearms and wears heart-shaped glasses at all times.
+
+	Backstory - Grieves was raised from infancy in an isolated village/colony subjected to the tyranny of an established diabolical vampire clan. Colony humans were typically good/neutral alignments, and resistant to effectively being used as cattle for vampires - but were threatened with annihilation in the circumstances that any villager should try to leave. Any villager who would leave the colony (and not return within the allotted time) would be tracked by the vampires, and their heads would shortly be mounted upon pikes fixed at the village entrance. 
+	
+	While being subjected to forceable feeding by a vampire at the age of 17, Grieves suggested that the feeding process could be improved through means of sex. During sex (and while being bitten) Grieves reactively returned the bite and consumed vampire blood to excess, consuming the curse and enraging the vampire feeding from her. Dictating death as too much of a mercy - the vampire cursed Grieves to be plagued with constant visions of the Hell which would await her. These visions render her blind (and, reasonably, traumatized.) She was then cast from the colony, unable to ever know her friends and family again.
+	
+	For 8 years, Grieves has been searching for redemption through religious means. She would join religious congregations of many kinds, hiding her true nature for fear of being hunted or shunned from the pious men she sought redemption from. However, her search has always resulted in the discovery of hidden sin and corruption in these institutions, and in these men - and inevitably her vampiric ability to seduce would lead to holy men casting her out for sin. 
+	
+	A year prior, Grieves met Finnian in her travels to find a new congregation. Confessing her visions of Hell and regular long spells of torment, Finnian fashioned an enchanted artifact in a pair of costume glasses found in an antique store. In owing him her sanity, she is beholden to his wishes and (inevitably) extremely fond of him. 
+	
+	Grieves is now seeking a less religious, and more practical, cure for her curse.`
 		},
 		{
-			name: "Nova Abyssus",
-			img: novaPortrait,
-			description: `Light purple skin, long dark purple hair, pure black eyes with no pupil, large crescent shaped scar on throat just above left collarbone, wears a long black hooded cloak that hides her curled horns and pointed tail
-		
-		Personality traits - fiercely loyal, has no filter can be blunt with people, very guarded, will prefer to go unseen if possible, loves climbing and finding dark spots to sleep in
-		
-		Ideals - thieves deserve no mercy, helping the helpless, defending the weak
-		
-		Bonds - her inner circle/the team she travels with and she is fond of a bat that has chosen to follow her around, she named him bug (short for bugger off) because she was always trying to get him to leave her alone but eventually grew to like him, she doesn’t know why he found her or stayed with her but he does… 
-		
-		Flaws - cynical, Pessimistic, untrusting of all people, takes a long time to break down her walls, can be prickly`,
-			backstory: `Nova has grown up alone and has only known solitude for the majority of her life. Her entire family were slaughtered by the townspeople for being outcasts and she barely escaped with her life, she has a deep crescent shaped scar on her throat from this attack.
-		
-		She became a rogue because she had to fend for herself and steal to keep herself alive, She joined the team to defend the weak and strives to prevent anyone going through the suffering she has endured, she regrets her dark past and projects this hatred onto all thieves as a result, she has a kind heart although it may not seem that way at times.
-		
-		She prefers to go unseen and will hide in the shadows if she can.`
+			name: "Xanthe Ravenna",
+			img: xanthe,
+			description: "half-elf warlock",
+			backstory: `I am Xanthe Ravenna a half-elf warlock I left my homeland with my Pseudo-dragon - Ghost in search of knowledge and I endeavoured to uncover the mysteries and secrets of the world, unfortunately in my search I stumbled upon an ancient bookcase not too long ago and read a passage out loud, this proved to be a terrible mistake! I was cursed by the devil himself and have been embroiled in my own internal battle ever since I am kind hearted and polite and inherently wish to make good decisions and the right choices but the curse is trying to drag me into darkness and will stop at nothing to corrupt my heart and soul My inner conflict is symbolised by tattoo-like marks on my body, Every time I defy the curse and make the right choice, but not necessarily the easiest choice I am made to suffer! It is as though a flaming torch has been held to my skin and when the pain subsides I am forever marked, my sincere hope is that one day I will find the cure to my affliction and once again regain control of my soul. I was stopped at a tavern for some sustenance when I was approached by a mysterious stranger, they passed me a letter and left without a word
+			This letter has led me to Bensons Solicitors, I have arrived at the specified location eager to uncover the secrets that have been laid in my path`
+		},
+		{
+			name: "Ghost",
+			img: ghost,
+			description: "Xanthe's pseudodragon familiar"
 		}
 	]
 };
