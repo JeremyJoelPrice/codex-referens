@@ -2,11 +2,10 @@ import Wallpaper from "../components/Wallpaper.jsx";
 import { uid } from "../utils/utils.js";
 import CharacterThumbnail from "../components/CharacterThumbnail.jsx";
 import CharacterProfile from "../components/CharacterProfile.jsx";
-import { images } from "../datasource/index.js";
 import styled from "styled-components";
 import { useState } from "react";
 import config from "../config/config.js";
-const { wallpaper } = images;
+import wallpaper from "../datasource/img/wallpaper.png"
 
 // display a row of PC thumbnails with names
 // when clicked, each thumbnail creates a character page to pop up

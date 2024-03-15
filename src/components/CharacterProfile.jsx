@@ -1,8 +1,7 @@
 import styled from "styled-components";
 import CharacterPortrait from "./CharacterPortrait";
 import { BodyText, Subheader } from "./StyledArticleComponents";
-import { images } from "../datasource";
-const { cancel } = images.misc;
+import cancel from "../datasource/img/cancel_error_coin_cross_delete_icon_210983.png"
 
 const CharacterProfile = ({
 	name,

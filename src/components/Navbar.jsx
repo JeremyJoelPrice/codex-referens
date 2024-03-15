@@ -5,9 +5,6 @@ const Navbar = () => {
 	return (
 		<StyledNavbar>
 			<NavLinkContainer>
-				<StyledLink to="/lore">
-					<NavLink>Lore Wiki</NavLink>
-				</StyledLink>
 				<StyledLink to="/character-gallery">
 					<NavLink>Character Gallery</NavLink>
 				</StyledLink>

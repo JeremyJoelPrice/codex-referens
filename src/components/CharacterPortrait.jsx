@@ -1,6 +1,5 @@
 import styled from "styled-components";
-import { images } from "../datasource/index.js";
-const { frame } = images;
+import frame from "../datasource/img/portrait-frame.png"
 
 const CharacterPortrait = ({ portraitSize, portrait }) => {
 	return (

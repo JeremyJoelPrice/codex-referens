@@ -1,12 +1,11 @@
 import styled from "styled-components";
 import Wallpaper from "../components/Wallpaper";
-import { images } from "../datasource/index.js";
 import {
 	BodyText,
 	Header,
 	Subheader
 } from "../components/StyledArticleComponents";
-const { wallpaper } = images;
+import wallpaper from "../datasource/img/wallpaper.png"
 
 const Srd = () => {
 	return (
