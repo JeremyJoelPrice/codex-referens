@@ -15,7 +15,6 @@ const StyledWallpaper = styled.div`
 	width: 100%;
 	height: 100%;
 	background-image: url(${({ src }) => src});
-	background-size: cover;
 	background-attachment: fixed;
 	overflow-y: scroll;
 	z-index: 0;

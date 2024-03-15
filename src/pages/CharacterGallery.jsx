@@ -5,7 +5,7 @@ import CharacterProfile from "../components/CharacterProfile.jsx";
 import styled from "styled-components";
 import { useState } from "react";
 import config from "../config/config.js";
-import wallpaper from "../datasource/img/wallpaper.png"
+import wallpaper from "../datasource/img/wallpaper.jpg"
 
 // display a row of PC thumbnails with names
 // when clicked, each thumbnail creates a character page to pop up

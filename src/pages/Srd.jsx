@@ -5,7 +5,7 @@ import {
 	Header,
 	Subheader
 } from "../components/StyledArticleComponents";
-import wallpaper from "../datasource/img/wallpaper.png"
+import wallpaper from "../datasource/img/wallpaper.jpg"
 
 const Srd = () => {
 	return (
