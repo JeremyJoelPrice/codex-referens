@@ -3,42 +3,36 @@ import { uid } from "../utils/utils.js";
 import CharacterThumbnail from "../components/CharacterThumbnail.jsx";
 import CharacterProfile from "../components/CharacterProfile.jsx";
 import styled from "styled-components";
-import { useState } from "react";
 import config from "../config/config.js";
-import wallpaper from "../datasource/img/wallpaper.jpg"
+import wallpaper from "../datasource/img/wallpaper.jpg";
 
 // display a row of PC thumbnails with names
 // when clicked, each thumbnail creates a character page to pop up
-const CharacterGallery = () => {
-	const [displayCharacter, setDisplayCharacter] = useState("");
-
-	const profile = config["player characters"].find(
-		({ name }) => name === displayCharacter
-	);
-	const name = profile?.name ?? undefined;
-	const img = profile?.img ?? undefined;
-	const description = profile?.description ?? undefined;
-	const backstory = profile?.backstory ?? undefined;
-
+const CharacterGallery = ({ displayCharacter, setDisplayCharacter }) => {
 	return displayCharacter ? (
-		<Wallpaper src={wallpaper}>
-			<CharacterProfile
-				name={name}
-				portrait={img}
-				description={description}
-				backstory={backstory}
-				setDisplayCharacter={setDisplayCharacter}
-			/>
-		</Wallpaper>
+		<div onClick={() => setDisplayCharacter()}>
+			<Wallpaper src={wallpaper}>
+				<CharacterProfile
+					displayCharacter={displayCharacter}
+					setDisplayCharacter={setDisplayCharacter}
+				/>
+			</Wallpaper>
+		</div>
 	) : (
 		<Wallpaper src={wallpaper}>
 			<ThumbnailsContainer>
-				{config["player characters"].map(({ name, img }) => {
+				{config["player characters"].map((pc) => {
 					return (
 						<ClickableContainer
 							key={uid()}
-							onClick={() => setDisplayCharacter(name)}>
-							<CharacterThumbnail name={name} portrait={img} />
+							onClick={(event) => {
+								event.stopPropagation();
+								setDisplayCharacter(pc);
+							}}>
+							<CharacterThumbnail
+								name={pc.name}
+								portrait={pc.img}
+							/>
 						</ClickableContainer>
 					);
 				})}

@@ -1,24 +1,22 @@
 import styled from "styled-components";
 import CharacterPortrait from "./CharacterPortrait";
 import { BodyText, Subheader } from "./StyledArticleComponents";
-import cancel from "../datasource/img/cancel_error_coin_cross_delete_icon_210983.png"
+import cancel from "../datasource/img/cancel_error_coin_cross_delete_icon_210983.png";
 
-const CharacterProfile = ({
-	name,
-	portrait,
-	description,
-	backstory,
-	setDisplayCharacter
-}) => {
+const CharacterProfile = ({ displayCharacter, setDisplayCharacter }) => {
+	
 	return (
-		<StyledCharacterProfile>
-			<CharacterPortrait portraitSize={"300px"} portrait={portrait} />
+		<StyledCharacterProfile onClick={(event) => event.stopPropagation()}>
+			<CharacterPortrait
+				portraitSize={"300px"}
+				portrait={displayCharacter.img}
+			/>
 			<CancelButton src={cancel} onClick={() => setDisplayCharacter()} />
-			<Name>{name}</Name>
-			<BodyText>{description}</BodyText>
+			<Name>{displayCharacter.name}</Name>
+			<BodyText>{displayCharacter.description}</BodyText>
 			<FloatClear />
 			<Subheader>Backstory</Subheader>
-			<BodyText>{backstory}</BodyText>
+			<BodyText>{displayCharacter.backstory}</BodyText>
 		</StyledCharacterProfile>
 	);
 };
