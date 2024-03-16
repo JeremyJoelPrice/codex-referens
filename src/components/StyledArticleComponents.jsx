@@ -13,15 +13,17 @@ const Header = styled(BodyText)`
 	text-align: center;
 	line-height: 1em;
 	font-size: 34pt;
+	font-weight: bold;
 	color: rgb(213, 194, 103);
 `;
 
-const Subheader = styled(Header)`
+const Subheader = styled(BodyText)`
 	font-size: 22pt;
 	text-align: left;
 	font-weight: bold;
-    font-style: italic;
+	font-style: italic;
 	margin: 0px;
+	color: rgb(213, 194, 103);
 `;
 
 export { BodyText, Header, Subheader };

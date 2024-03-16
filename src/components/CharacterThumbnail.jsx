@@ -17,10 +17,7 @@ export default CharacterThumbnail;
 
 const StyledNameTag = styled(Subheader)`
 	align-self: center;
-	line-height: 1em;
-	font-size: 25pt;
-	color: rgb(213, 194, 103);
-	text-shadow: 0px 0px 4px rgba(0, 0, 0, 1);
+	text-shadow: 3px 4px 4px rgba(0, 0, 0, 1);
 `;
 
 const ThumbnailWrapper = styled.div`

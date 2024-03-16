@@ -11,7 +11,7 @@ const CharacterProfile = ({ displayCharacter, setDisplayCharacter }) => {
 				portrait={displayCharacter.img}
 			/>
 			<CancelButton src={cancel} onClick={() => setDisplayCharacter()} />
-			<Name>{displayCharacter.name}</Name>
+			<Subheader>{displayCharacter.name}</Subheader>
 			<BodyText>{displayCharacter.backstory}</BodyText>
 		</StyledCharacterProfile>
 	);
@@ -28,13 +28,6 @@ const StyledCharacterProfile = styled.div`
 
 	background-color: rgba(20, 20, 20, 0.8);
 	border-radius: 5px;
-`;
-
-const Name = styled(Subheader)`
-	margin-bottom: 10px;
-	line-height: 1em;
-	font-size: 34pt;
-	color: rgb(213, 194, 103);
 `;
 
 const CancelButton = styled.img`
