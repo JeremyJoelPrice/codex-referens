@@ -3,7 +3,6 @@ import CharacterGallery from "./pages/CharacterGallery";
 import Navbar from "./components/Navbar";
 import Srd from "./pages/Srd";
 import { useState } from "react";
-import config from "./config/config";
 
 const App = () => {
 	const [displayCharacter, setDisplayCharacter] = useState();
