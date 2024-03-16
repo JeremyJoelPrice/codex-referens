@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import CharacterPortrait from "../components/CharacterPortrait";
+import { Subheader } from "./StyledArticleComponents";
 
 const CharacterThumbnail = ({ name, portrait }) => {
 	return (
@@ -14,8 +15,7 @@ const CharacterThumbnail = ({ name, portrait }) => {
 
 export default CharacterThumbnail;
 
-const StyledNameTag = styled.div`
-	font-family: Georgia, "Times New Roman", Times, serif;
+const StyledNameTag = styled(Subheader)`
 	align-self: center;
 	line-height: 1em;
 	font-size: 25pt;

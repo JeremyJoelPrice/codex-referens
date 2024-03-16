@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const BodyText = styled.div`
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: Optima, sans serif;
 	font-size: 16pt;
 	color: rgb(239, 233, 203);
 	line-height: 1.5em;
@@ -19,6 +19,9 @@ const Header = styled(BodyText)`
 const Subheader = styled(Header)`
 	font-size: 22pt;
 	text-align: left;
+	font-weight: bold;
+    font-style: italic;
+	margin: 0px;
 `;
 
 export { BodyText, Header, Subheader };

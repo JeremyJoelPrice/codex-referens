@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import { Subheader } from "./StyledArticleComponents";
 
 const Navbar = () => {
 	return (
@@ -37,8 +38,7 @@ const NavLinkContainer = styled.div`
 	margin: 10px 0;
 `;
 
-const NavLink = styled.div`
-	font-family: Georgia, "Times New Roman", Times, serif;
+const NavLink = styled(Subheader)`
 	font-size: 18pt;
 	color: rgb(213, 194, 103);
 	line-height: 1.5em;

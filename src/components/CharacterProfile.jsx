@@ -33,8 +33,7 @@ const StyledCharacterProfile = styled.div`
 	border-radius: 5px;
 `;
 
-const Name = styled.div`
-	font-family: Georgia, "Times New Roman", Times, serif;
+const Name = styled(Subheader)`
 	margin-bottom: 10px;
 	line-height: 1em;
 	font-size: 34pt;
