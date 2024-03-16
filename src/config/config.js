@@ -19,9 +19,9 @@ const config = {
 		{
 			name: "Melody Grieves",
 			img: nullPortrait,
-			backstory: `Melody Grieves (GRIEVES). Physical Description - Grieves is a 25 year old woman. She is 5’10 with an hourglass figure, but typically wears layered full-length robes and cheap jewels. She has the words ‘hello’ and ‘goodbye’ branded into each of her forearms and wears heart-shaped glasses at all times.
+			backstory: `Grieves is a 25 year old woman. She is 5’10 with an hourglass figure, but typically wears layered full-length robes and cheap jewels. She has the words ‘hello’ and ‘goodbye’ branded into each of her forearms and wears heart-shaped glasses at all times.
 
-	Backstory - Grieves was raised from infancy in an isolated village/colony subjected to the tyranny of an established diabolical vampire clan. Colony humans were typically good/neutral alignments, and resistant to effectively being used as cattle for vampires - but were threatened with annihilation in the circumstances that any villager should try to leave. Any villager who would leave the colony (and not return within the allotted time) would be tracked by the vampires, and their heads would shortly be mounted upon pikes fixed at the village entrance. 
+	Grieves was raised from infancy in an isolated village/colony subjected to the tyranny of an established diabolical vampire clan. Colony humans were typically good/neutral alignments, and resistant to effectively being used as cattle for vampires - but were threatened with annihilation in the circumstances that any villager should try to leave. Any villager who would leave the colony (and not return within the allotted time) would be tracked by the vampires, and their heads would shortly be mounted upon pikes fixed at the village entrance. 
 	
 	While being subjected to forceable feeding by a vampire at the age of 17, Grieves suggested that the feeding process could be improved through means of sex. During sex (and while being bitten) Grieves reactively returned the bite and consumed vampire blood to excess, consuming the curse and enraging the vampire feeding from her. Dictating death as too much of a mercy - the vampire cursed Grieves to be plagued with constant visions of the Hell which would await her. These visions render her blind (and, reasonably, traumatized.) She was then cast from the colony, unable to ever know her friends and family again.
 	
@@ -34,14 +34,13 @@ const config = {
 		{
 			name: "Xanthe Ravenna",
 			img: xanthe,
-			description: "half-elf warlock",
 			backstory: `I am Xanthe Ravenna a half-elf warlock I left my homeland with my Pseudo-dragon - Ghost in search of knowledge and I endeavoured to uncover the mysteries and secrets of the world, unfortunately in my search I stumbled upon an ancient bookcase not too long ago and read a passage out loud, this proved to be a terrible mistake! I was cursed by the devil himself and have been embroiled in my own internal battle ever since I am kind hearted and polite and inherently wish to make good decisions and the right choices but the curse is trying to drag me into darkness and will stop at nothing to corrupt my heart and soul My inner conflict is symbolised by tattoo-like marks on my body, Every time I defy the curse and make the right choice, but not necessarily the easiest choice I am made to suffer! It is as though a flaming torch has been held to my skin and when the pain subsides I am forever marked, my sincere hope is that one day I will find the cure to my affliction and once again regain control of my soul. I was stopped at a tavern for some sustenance when I was approached by a mysterious stranger, they passed me a letter and left without a word
 			This letter has led me to Bensons Solicitors, I have arrived at the specified location eager to uncover the secrets that have been laid in my path`
 		},
 		{
 			name: "Ghost",
 			img: ghost,
-			description: "Xanthe's pseudodragon familiar"
+			backstory: "Xanthe's pseudodragon familiar"
 		}
 	]
 };

@@ -4,7 +4,6 @@ import { BodyText, Subheader } from "./StyledArticleComponents";
 import cancel from "../datasource/img/cancel_error_coin_cross_delete_icon_210983.png";
 
 const CharacterProfile = ({ displayCharacter, setDisplayCharacter }) => {
-	
 	return (
 		<StyledCharacterProfile onClick={(event) => event.stopPropagation()}>
 			<CharacterPortrait
@@ -13,9 +12,6 @@ const CharacterProfile = ({ displayCharacter, setDisplayCharacter }) => {
 			/>
 			<CancelButton src={cancel} onClick={() => setDisplayCharacter()} />
 			<Name>{displayCharacter.name}</Name>
-			<BodyText>{displayCharacter.description}</BodyText>
-			<FloatClear />
-			<Subheader>Backstory</Subheader>
 			<BodyText>{displayCharacter.backstory}</BodyText>
 		</StyledCharacterProfile>
 	);
@@ -26,6 +22,7 @@ export default CharacterProfile;
 const StyledCharacterProfile = styled.div`
 	border: 1pt solid rgb(73, 70, 50);
 	width: 70%;
+	min-height: 300px;
 	margin: 50px auto 100px;
 	padding: 20px;
 
@@ -46,8 +43,4 @@ const CancelButton = styled.img`
 	&:hover {
 		cursor: pointer;
 	}
-`;
-
-const FloatClear = styled.div`
-	clear: both;
 `;
