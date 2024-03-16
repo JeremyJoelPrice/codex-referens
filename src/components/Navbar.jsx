@@ -6,7 +6,7 @@ const Navbar = () => {
 	return (
 		<StyledNavbar>
 			<NavLinkContainer>
-				<StyledLink to="/character-gallery">
+				<StyledLink to="/">
 					<NavLink>Character Gallery</NavLink>
 				</StyledLink>
 				<StyledLink to="/srd">

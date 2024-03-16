@@ -12,9 +12,8 @@ const App = () => {
 			<div className="App">
 				<Navbar />
 				<Routes>
-					<Route path="/" element={<CharacterGallery />} />
 					<Route
-						path="/character-gallery"
+						path={"/"}
 						element={
 							<CharacterGallery
 								displayCharacter={displayCharacter}
